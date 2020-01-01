@@ -1,0 +1,127 @@
+body{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #272727;
+    color: white;
+    text-align: center;
+}
+
+
+#score{
+    border-radius: 25px;
+    border-color: #FF652F;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+          
+}
+
+#images{
+    
+    border-width: 8px;
+    border-color:#FFE420;
+    background-color: black;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    width: 66%
+}
+
+#images img{
+
+
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border: 8px solid #14A76C;
+    border-radius: 9px;
+    background-color: #272727;
+     
+}
+
+#images img:hover{
+
+    border: 12px solid #08F7FE;
+    background-color: #112D32;
+    padding: 0px;
+    box-shadow: 0 0 5px 1px  #08F7FE;
+    
+    
+
+}
+
+.player{
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    border: 5px solid blue;
+    left: 2em;
+    top: 125px; 
+    border-radius: 50px;  
+    background-color: black;
+    
+}
+
+.player p{
+    
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+   
+}
+
+.computer{
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    border: 5px solid red;
+    right: 2em;
+    top: 125px; 
+    border-radius: 50px;
+    background-color: black;
+    
+    
+}
+
+.computer p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    line-height: 20px;
+    font-weight: bold;
+    
+}
+
+#reset button{
+
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: white;
+    border: 5px solid #FE1C80;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
+
+#reset button:hover{
+    height: 60px;
+    width: 180px;
+    font-size: 32px;
+    border: 8px solid #CE0000;
+    box-shadow: 0 0 5px 1px black;
+
+}
+
